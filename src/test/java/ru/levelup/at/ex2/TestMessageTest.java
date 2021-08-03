@@ -15,23 +15,9 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import ru.levelup.at.BaseTest;
 
-public class TestMessageTest {
-    private WebDriver driver;
-
-    @BeforeClass
-    public void beforeClass() {
-        WebDriverManager.chromedriver().setup();
-    }
-
-    @BeforeMethod
-    public void setUp() {
-        System.setProperty("webdriver.chrome.driver", "src/main/resources/selenium/drivers/chrome/chromedriver_win32/chromedriver.exe");
-        driver = new ChromeDriver();
-        driver.navigate().to("https://mail.ru/");
-        driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-    }
+public class TestMessageTest extends BaseTest {
 
     @Test
     public void openAndLoginMailRuHomePageTest() {

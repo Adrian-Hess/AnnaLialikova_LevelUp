@@ -11,23 +11,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import ru.levelup.at.BaseTest;
 
-public class DeleteMessageTest {
-    private WebDriver driver;
-
-    @BeforeClass
-    public void beforeClass() {
-        WebDriverManager.chromedriver().setup();
-    }
-
-    @BeforeMethod
-    public void setUp() {
-        System.setProperty("webdriver.chrome.driver", "src/main/resources/selenium/drivers/chrome/chromedriver_win32/chromedriver.exe");
-        driver = new ChromeDriver();
-        driver.navigate().to("https://mail.ru/");
-        driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-    }
+public class DeleteMessageTest extends BaseTest {
 
     @Test
     public void openAndDeleteMsgTest() {
