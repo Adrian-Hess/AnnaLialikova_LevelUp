@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="All operations Suite">
+
+  <test name="All operations tests">
+    <classes>
+      <class name="ru.levelup.at.build.tools.homework5.CalculatorCosTest"/>
+      <class name="ru.levelup.at.build.tools.homework5.CalculatorCtgTest"/>
+      <class name="ru.levelup.at.build.tools.homework5.CalculatorDivTest"/>
+      <class name="ru.levelup.at.build.tools.homework5.CalculatorIsNegativeTest"/>
+      <class name="ru.levelup.at.build.tools.homework5.CalculatorIsPositiveTest"/>
+      <class name="ru.levelup.at.build.tools.homework5.CalculatorMultTest"/>
+      <class name="ru.levelup.at.build.tools.homework5.CalculatorPowTest"/>
+      <class name="ru.levelup.at.build.tools.homework5.CalculatorSinTest"/>
+      <class name="ru.levelup.at.build.tools.homework5.CalculatorSqrtTest"/>
+      <class name="ru.levelup.at.build.tools.homework5.CalculatorSubTest"/>
+      <class name="ru.levelup.at.build.tools.homework5.CalculatorSumTest"/>
+      <class name="ru.levelup.at.build.tools.homework5.CalculatorTgTest"/>
+    </classes>
+  </test>
+
+</suite>
