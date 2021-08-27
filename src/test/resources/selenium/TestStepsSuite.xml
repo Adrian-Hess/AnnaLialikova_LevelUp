@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Selenium Page Objects Suite">
+
+  <test name="Selenium Page Objects tests">
+    <classes>
+      <class name="ru.levelup.at.homework8.MailExercise1Test"/>
+      <class name="ru.levelup.at.homework8.MailExercise2Test"/>
+      <class name="ru.levelup.at.homework8.MailExercise3Test"/>
+    </classes>
+  </test>
+
+</suite>

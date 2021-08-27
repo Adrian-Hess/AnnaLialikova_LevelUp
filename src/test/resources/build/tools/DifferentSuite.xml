@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Different operations Suite">
+
+  <test name="Different operations tests">
+    <classes>
+      <class name="ru.levelup.at.build.tools.homework5.CalculatorIsNegativeTest"/>
+      <class name="ru.levelup.at.build.tools.homework5.CalculatorIsPositiveTest"/>
+      <class name="ru.levelup.at.build.tools.homework5.CalculatorPowTest"/>
+      <class name="ru.levelup.at.build.tools.homework5.CalculatorSqrtTest"/>
+    </classes>
+  </test>
+
+</suite>
